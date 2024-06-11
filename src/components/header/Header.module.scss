@@ -1,0 +1,17 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  .endOptions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .icon {
+      padding: 10px;
+      border-radius: 50%;
+      background-color: #f0f8ff;
+      color: #00a5ec;
+    }
+  }
+}
